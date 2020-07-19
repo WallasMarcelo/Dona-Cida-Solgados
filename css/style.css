@@ -205,29 +205,36 @@ img {
   padding: 60px 0;
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
   border-top: 2px solid #ba4721;
 }
 
-
-.contato-item h2{
+.contato h2{
   font-size: 3em;
   margin-bottom: 10px;
 }
 
-
-.contato-item input, textarea{
+.contato-item{
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.item{
   width: 370px;
   color: #7c7c7c;
   font-size: 1.25em;
-  margin-bottom: 10px;  
+  margin-bottom: 10px; 
+  flex-direction: column;
+   
 }
 
-.contato-item input[type=submit] {
+.item-submit {
   width: 100px;
   height: 30px;
   color: #222222;
-  text-align: left;
+  font-size: 1.25em;
+  text-align: center;
   background: #ba4721;
 }
 
